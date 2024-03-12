@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background: #e9ecee;
+}
+.fieldset_1{
+    width: 50vw;
+    height: 35vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    background:#ffffff;
+    border:none;
+}
+.fieldset_1:hover{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.fieldset_2{
+    width: 25vw;
+    height: 40vw;
+    margin-left: 1.5vw;
+    margin-top: 5vw;
+    background:#ffffff;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.fieldset_3{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 17.5vw;
+    border: 0.1vw solid black;
+    overflow-y: scroll;
+}
+.fieldset_3::-webkit-scrollbar {
+    width:0.25vw;
+}
+.fieldset_3::-webkit-scrollbar-thumb {
+    border-radius:1vw;
+    -webkit-box-shadow: inset 0 0 1vw #ffae00 ;
+}
+.wallet_icon{
+    width: 3.5vw;
+    height: 3.5vw;
+    display: block;
+}
+.table_1{
+    margin-left: -27.5vw;
+}
+.payment_title{
+    font-size: 1.5vw;
+    display: block;
+    margin-left: 1vw;
+    font-family:"josefin sans semibold";
+}
+.payment_selection{
+   width:25vw;
+   height: 23.5vw;
+   background: #edf1f7;
+   margin-left: 1vw;
+   margin-top: 0.5vw;
+}
+.payment_view{
+   width: 33vw;
+   height: 27vw;
+   margin-top: 0.5vw;
+   margin-left: 1vw;
+}
+.button_1{
+    width: 12.72vw;
+    height: 3vw;
+    background:white;
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    border: none;
+    font-size: 1vw;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+.button_1:hover{
+    color: rgb(0, 0, 0);
+}
+.button_2{
+    width: 12.72vw;
+    height: 3vw;
+    font-size: 1vw;
+    margin-top: 0.25vw;
+    margin-left: 1.3vw;
+    border: none;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+.button_2:hover{
+    color: rgb(0, 0, 0);
+}
+.debit_card{
+    width: 1.75vw;
+    height: 1.75vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.debit_card_text{
+    font-size: 1vw;
+    display: block;
+    font-family:"josefin sans medium";
+    margin-left: 0.5vw;
+}
+.card_title{
+    font-size: 0.7vw;
+    display: block;
+    margin-left: 1vw;
+    font-family:"josefin sans thin";
+}
+.card_types{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: .3vw;
+    margin-right: .3vw;
+}
+.debit_card_details_table{
+    margin-left: -7vw;
+}
+.payment_card_details{
+   margin-top: 1vw;
+   width: 20vw;
+   height: 17.5vw;
+}
+.group{ 
+    position:relative; 
+    margin-bottom:1.5vw; 
+  }
+  .input{
+    font-size:1vw;
+    padding:0.5vw 0.5vw 0.5vw 0.25vw;
+    display:block;
+    width:19vw;
+    height: 1.5vw;
+    font-family:"josefin sans medium";
+    border:none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  .input2{
+    font-size:1vw;
+    padding:0.5vw 0.5vw 0.5vw 0.25vw;
+    display:block;
+    width:12vw;
+    height: 1.5vw;
+    font-family:"josefin sans medium";
+    border:none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  .input3{
+    font-size:1vw;
+    padding:0.5vw 0.5vw 0.5vw 0.25vw;
+    display:block;
+    width:6vw;
+    height: 1.5vw;
+    font-family:"josefin sans medium";
+    border:none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  .input:focus{ 
+    outline:none; 
+  }
+  label {
+    color:#7a7a7a  ; 
+    font-size:1vw;
+    position:absolute;
+    font-family:"josefin sans medium";
+    pointer-events:none;
+    left: 3%;
+    top:32%;
+    transition:0.2s ease all; 
+  }
+  #label_email{
+      color:#7a7a7a  ; 
+      font-size:1vw;
+      position:absolute;
+      font-family:"josefin sans medium";
+      pointer-events:none;
+      left: 1.5%;
+      top:32%;
+      transition:0.2s ease all; 
+  }
+  .input:focus ~ label, .input:valid ~ label,.input:focus ~ #label_email, .input:valid ~ #label_email, .input2:focus ~ label, .input2:valid ~ label,.input2:focus ~ #label_email, .input2:valid ~ #label_email,
+  .input3:focus ~ label, .input3:valid ~ label,.input3:focus ~ #label_email, .input3:valid ~ #label_email
+  {
+    top:-1.2vw;
+    left: 0vw;
+    font-size:1.05vw;
+    color:#4D4D4D;
+  }
+  .check_out{
+    width: 19.5vw;
+    margin-top: 0.1vw;
+    height: 2.5vw;
+    display: block;
+    font-size: 1vw;
+    background-color: rgb(78, 194, 0);
+    color: white;
+    font-family:"josefin sans medium";
+    border:none;
+}
+#UPI_details{
+  display: none;
+}
+#button_upi{
+    margin-top: -1.5vw;
+}
+#group_input{
+    margin-top: -3vw;
+}
+.upi_outer{
+    margin-top: -2.5vw;
+}
+.upi_title{
+    font-size: 1.25vw;
+    display: block;
+    font-family:"josefin sans medium";
+}
+.upi_solgan{
+    font-size: 0.75vw;
+    display: block;
+    font-family:"josefin sans thin";
+}
+.cart_title_new{
+    font-size: 1.25vw;
+    display: block;
+    font-family:"josefin sans medium";
+}
+.hotel_img_{
+    width: 5vw;
+    display: block;
+    height: 5vw;
+}
+.hr_line{
+    margin-top: -0.8vw;
+    display: block;
+    width:17.2vw;
+}
+.bil_details{
+    font-size: 0.8vw;
+    display: block;
+    font-family:"josefin sans semibold";
+    margin-left: 1vw;
+}
+.bil_details1{
+    font-size: 0.8vw;
+    display: block;
+    font-family:"josefin sans semibold";
+    margin-left: 1vw;
+    margin-top:0.5vw;
+}
+.hr_line2{
+    width:17.2vw;
+    display: block;
+}
+#fund{
+    position: absolute;
+}

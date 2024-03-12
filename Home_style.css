@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.hr_line{
+    width: 98.9%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 6.2vw;
+}
+.hr_line1{
+    width: 98.9%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 9.3vw;
+}
+#header{
+  border:1px solid;
+  width: 100%;
+}
+#yummy_logo{
+ font-family: 'Josefin Sans Bold', sans-serif;
+ font-size:2.1vw;
+ margin-left: 1vw;
+ margin-top: 2vw;
+}
+#logo_caption{
+   font-family:"josefin sans ExtraLight";
+   font-size:1.1vw;
+   margin-top: -1vw;
+}
+
+  .sidebar {
+    height: 35vw;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 6.8vw;
+    left: 0;
+    background-color: #3cc5f9 ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5vw;
+  }
+  
+  .sidebar a {
+    padding:0.416vw 0.416vw 0.416vw 1.041vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family:"josefin sans medium";
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #252525;
+    font-size: 1.7vw;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0.7vw;
+    font-size: 1.2vw;
+  }
+  .sidebar .closebtn:hover{
+    font-size: 1.5vw;
+    color: #ff0000;
+  }
+  
+  .openbtn {
+    font-size: 0.9vw;
+    cursor: pointer;
+    background-color: #e9b826;
+    font-family:"josefin sans medium";
+    color: rgb(255, 255, 255);
+    padding: 0.5vw 0.7vw;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #e9b826;
+    color: rgb(0, 0, 0);
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 1vw;
+    position:absolute;
+    top:6vw;
+    left: -0.6vw;
+  }
+  @media screen and (max-height: 39vw) {
+    .sidebar {padding-top: 0.7vw;}
+    .sidebar a { font-size: 1vw;}
+  }
+.iframe_outer{
+  position:relative;
+  top: -1.35vw;
+}

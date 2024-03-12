@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+	margin:0;
+	background-color:white;
+}
+
+#header{
+  border:1px solid;
+  width: 100%;
+}
+#yummy_logo{
+ font-family: 'Josefin Sans Bold', sans-serif;
+ font-size:2.1vw;
+ margin-left: 1vw;
+ margin-top: 2vw;
+}
+#logo_caption{
+   font-family:"josefin sans ExtraLight";
+   font-size:1.1vw;
+   margin-top: -1vw;
+}
+
+.banner_video{
+	 width:100%;
+	 object-fit: cover;
+}
+.logo{
+	 width:30%;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.title1{
+	
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+	font-size:50px;
+}
+
+.loader_img{
+	width:8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Middle_fieldset{
+  margin-left:auto ;
+  width: 35%;
+  margin-right: auto;
+  margin-top: 3%;
+  height:20vw;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border:none;
+  border-radius: 1vw;
+}
+#Login_logo{
+  width: 6vw;
+  position: relative;
+  top: 0.8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#Login_text{
+  text-align: center;
+  font-size: 1.5vw;
+  margin-top: 2%;
+  font-family: 'Josefin Sans Bold', sans-serif;
+}
+#table_for_login_page{
+  width:auto;
+  margin-top: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group{ 
+  position:relative; 
+  margin-bottom:1.5vw; 
+}
+.group_1{ 
+  position:relative; 
+ 
+}
+.input{
+  font-size:1vw;
+  padding:0.5vw 0.5vw 0.5vw 0.25vw;
+  display:block;
+  width:20vw;
+  height: 2vw;
+  font-family:"josefin sans medium";
+  border:none;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.input:focus{ 
+  outline:none; 
+}
+label {
+  color:#7a7a7a  ; 
+  font-size:1vw;
+  position:absolute;
+  font-family:"josefin sans medium";
+  pointer-events:none;
+  left: 3%;
+  top:32%;
+  transition:0.2s ease all; 
+}
+.input:focus ~ label, .input:valid ~ label,.input:focus ~ #label_email, .input:valid ~ #label_email  {
+  top:-1.2vw;
+  left: 0vw;
+  font-size:1.05vw;
+  color:#4D4D4D;
+}
+
+#submit_button{
+   width: 6vw;
+   height: 1.9vw;
+   text-align: center;
+   font-size: 1vw;
+   font-family: 'Josefin Sans Bold', sans-serif;
+   background-color: #e9b826 ;
+   color: rgb(0, 0, 0);
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 0.2vw;
+ }
+ #back{
+  width: 6vw;
+  height: 1.9vw;
+  text-align: center;
+  font-size: 1vw;
+  font-family: 'Josefin Sans Bold', sans-serif;
+  background-color: #3cc5f9 ;
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.2vw;
+ }
+ #final_button{
+   text-align: center;
+ }

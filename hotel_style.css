@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.field_1{
+    width: 98.4%;
+    height: 13vw;
+    border:none;
+    background-color: #000530 ;
+}
+.hotel_img_size{
+    width: 13vw;
+    height: 12.5vw;
+    margin-top: 0.45vw;
+}
+.hotel_name{
+    font-size: 2vw;
+    font-family:"josefin sans semibold";
+    display: block;
+    color: white;
+}
+.hotel_loction{
+    font-size: 0.8vw;
+    font-family:"josefin sans thin";
+    display: block;
+    margin-top: -1vw;
+    margin-left: .6vw;
+    color: white;
+}
+.checked {
+    color: orange;
+}
+#hotel_star_rating{
+    font-size: 1.5vw;
+    margin-left: .6vw;
+    display: block;
+    margin-top: 1.5vw;
+}
+.table_{
+    height: 2vw;
+    width: 30vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+.total_rating{
+   font-family:"josefin sans medium";
+  font-size: 1.7vw;
+  display: block;
+  margin-top: 1.5vw;
+  color: white;
+}
+small{
+   font-family:"josefin sans medium";
+   font-size: 1vw;
+   display: block;
+   margin-top: 2vw;
+   color: white;
+}
+.dot_span{
+    font-size: 1.7vw;
+    display: block;
+    margin-left: 0.5vw;
+    margin-top: 1.3vw;
+    color: white;
+}
+.timming{
+    font-family:"josefin sans medium";
+    margin-left: .4vw;
+    color: white;
+    display: block;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+.field_2{
+    width: 15vw;
+    height: 8vw;
+    margin-top: 2.2vw;
+    font-family:"josefin sans medium";
+    border: 0.05vw solid white;
+    color: white;
+}
+legend{
+    font-size: 1vw;
+}
+.field_3{
+    margin-top: 0.05vw;
+    width: 98.4%;
+    height: 2.25vw;
+    background-color: #3cc5f9 ;
+    border:none;
+}
+.softbox
+{
+	transition: border .2s linear;
+	font-size: 1vw;
+    width: 80%;
+    margin-left: 3vw;
+    display: block;
+	background: #f5f8fa;
+    color: #000;
+    height: 2vw;
+    border-radius: 2.5px;
+    border:none;
+}
+.softbox:focus
+{
+	border: 2px solid  #e9b826;
+}
+.softbtn
+{
+	font-size: 1.25vw;
+    color: #66757f;
+	background-color: transparent;
+    display: block;
+    cursor: pointer;
+	border:none;
+    margin-left: -0.4vw;
+    margin-top: -0.2vw;
+	padding: 0.20833333333333334vw;
+}
+.check_box{
+    font-size: 1vw;
+    width: 2vw;
+    height: 1vw;
+    color: #66757f;
+     margin-left: -0.4vw;
+     margin-top: -0.2vw;
+	background-color: transparent;
+    display: block;
+    cursor: pointer;
+	border:none;
+	padding: 0.20833333333333334vw;
+}
+.table_field{
+    width: 30vw;
+    margin-top: -0.2vw;
+   margin-left: auto;
+   margin-right: auto;
+}
+.table_row_1{
+    width: 18vw;
+}
+.check_box_h3{
+    font-family:"josefin sans medium";
+    display: block;
+    font-size: 1vw;
+    margin-top: 0.6vw;
+    margin-left: -0.95vw;
+}
+.table_row_2{
+    width: 5vw;
+}
+.table_row_3{
+    width: 2vw;
+}
+.table_row_4{
+    width: 2vw;
+}
+.div_hotel_dishes{
+    border-left: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+    padding: 1vw;
+    margin-top: 0.15vw;
+    width:30%;
+    height:32vw;
+    overflow-y: scroll;
+    margin-left: 34vw;
+    margin-right:2vw;
+}
+.div_hotel_dishes::-webkit-scrollbar {
+    width:0.25vw;
+}
+.div_hotel_dishes::-webkit-scrollbar-thumb {
+    border-radius:1vw;
+    -webkit-box-shadow: inset 0 0 1vw #ffae00 ;
+}
+.dishe_cusine_type{
+    font-size: 1.5vw;
+    font-family:"josefin sans medium";
+}
+.food_safely{
+    width: 1.25vw;
+    height: 1.25vw;
+    display: block;
+    margin-left: 0.5vw;
+}
+.table_field_dishe{
+    width: 28vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dishe_name{
+    font-family:"josefin sans medium";
+    font-size: 0.9vw;
+    margin-top: -0.3vw;
+    display: block;
+    margin-left: 0.8vw;
+}
+.dishe_price{
+    font-family:"josefin sans medium";
+    font-size: 0.9vw;
+    margin-top: -0.8vw;
+    display: block;
+    margin-left: 0.8vw;
+}
+.td_width{
+  width: 16.5vw;
+}
+.dishe_image{
+    width: 9vw;
+    height: 6vw;
+    display: block;
+    margin-left: 0.8vw;
+    border-radius: 1vw;
+}
+.dishe_add{
+    font-size: 0.8vw;
+    width: 5vw;
+    height: 1.4vw;
+    font-family:"josefin sans medium";
+    display: block;
+    border: none;
+    margin-top: .4vw;
+    margin-left: 2.8vw;
+    background-color: #3cc5f9 ;
+    color: white;
+    border-radius: .2vw;
+}
+.dishe_add:hover{
+    cursor: pointer;
+    background-color: #ffcd35;
+    color: black;
+}
+.down_border_line{
+    margin-top: 2vw;
+}
+
+.back{
+    font-family:"josefin sans medium";
+    margin-top: 4vw;
+    text-align: center;
+    font-size: 1.25vw;
+}
+.back_btn{
+    width: 6vw;
+    height: 2vw;
+    margin-left: 40%;
+    border: none;
+    font-size: 0.8vw;
+    background-color:#ffae00 ;
+}
+.back_btn:hover{
+    border:.01vw solid black;
+    font-size: 0.9vw;
+    color: white;
+    background-color: #3cc5f9 ;
+    cursor: pointer;
+}
+.field_5{
+    width: 18vw;
+    height: auto;
+    margin-top: 1vw;
+    margin-right:6.5vw;
+    font-family:"josefin sans semibold";
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.cart_title{
+    font-size: 1.75vw;
+}
+.hotel_name_cart{
+    font-size: 0.7vw;
+    font-family:"josefin sans medium";
+    margin-left: 0.5vw;
+    margin-top: -1vw;
+    display: block;
+}
+.hotel_name_color{
+    color: rgb(30, 126, 252);
+}
+.total_cart_item{
+    font-size: 0.8vw;
+    font-family:"josefin sans medium";
+    background-color: black;
+    width: 3.5vw;
+    padding: .3vw;
+    height: 1vw;
+    color: #ffae00;
+    margin-left: 0.5vw;
+    margin-top: -0.35vw;
+    display: block;
+}
+.welcome_title{
+    font-family:"josefin sans semibold";
+    font-size: 0.8vw;
+    margin-top:  0.85vw;
+    margin-left: 0.5vw;
+}
+.table_cart{
+    border-collapse: collapse;
+    width: 19vw;
+    margin-left: 0.28vw;
+}
+.food_safely_cart{
+    width: 1vw;
+    height: 1vw;
+    display: block;
+    margin-left: 0.5vw;
+    margin-top: 0.925vw;
+}
+.cart_row{
+    height: 2vw;
+}
+.dish_name{
+    font-family:"josefin sans semibold";
+    font-size: 0.95vw;
+    display: block;
+    margin-left: 0.75vw;
+}
+.btn_border{
+    width: 4vw;
+    margin-top: 0.1vw;
+    display: flex;
+    height: 2vw;
+    border:0.1vw solid black;
+}
+.total_items{
+    font-family:"josefin sans semibold";
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    display: block;
+    text-align: center;
+}
+.sub_cart_item{
+    border:none;
+    font-size: 1.5vw;
+    color: #ffae00;
+    margin-top: -.25vw;
+    margin-left: 0.3vw;
+    display: block;
+    margin-right: 0.25vw;
+    background-color: #f5f8fa00;
+}
+.sub_cart_item:hover{
+   cursor: pointer;
+}
+.add_cart_item{
+    border:none;
+    font-size: 1.3vw;
+    color: #ffae00;
+    display: block;
+    margin-top: -.2vw;
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+    background-color: #f5f8fa00;
+}
+.add_cart_item:hover{
+    cursor: pointer;
+ }
+ .Dish_price{
+    font-family:"josefin sans semibold";
+    font-size: 0.95vw;
+    display: block;
+    margin-left: 1.25vw;
+    margin-top: 0.5vw;
+ }
+ .Sub_total{
+    font-family:"josefin sans medium";
+    font-size: 1.1vw;
+    display: block;
+    margin-left: 0.75vw;
+ }
+ .total_price{
+    font-family:"josefin sans medium";
+    font-size: 1.1vw;
+    display: block;
+    margin-left: 6.5vw;
+ }
+ .total_Extra{
+    font-family:"josefin sans medium";
+    font-size: 0.75vw;
+    margin-left: 0.7vw;
+    margin-top: -0.5vw;
+    display: block;
+ }
+ .check_out{
+     width: 19.5vw;
+     margin-top: 1.2vw;
+     height: 2.5vw;
+     display: block;
+     font-size: 1vw;
+     background-color: rgb(78, 194, 0);
+     color: white;
+     font-family:"josefin sans medium";
+     border:none;
+ }

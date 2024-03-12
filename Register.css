@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background: #f0f0f0; 
+}
+#header{
+   border:1px solid;
+   width: 100%;
+}
+#yummy_logo{
+  font-family: 'Josefin Sans Bold', sans-serif;
+  font-size:2.1vw;
+  margin-left: 1vw;
+  margin-top: 2vw;
+}
+#logo_caption{
+    font-family:"josefin sans ExtraLight";
+    font-size:1.1vw;
+    position: absolute;
+    top: 3.2vw;
+    left:1.55vw;
+}
+#line_1{
+    margin-top: 1%;
+    width:98%;
+}
+#Middle_fieldset{
+    margin-left:auto ;
+    width: 55%;
+    margin-right: auto;
+    margin-top: 1%;
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border:none;
+    border-radius: 1vw;
+}
+#sign_up_logo{
+    width: 4vw;
+    position: relative;
+    top: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#sign_up_text{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    font-family: 'Josefin Sans Bold', sans-serif;
+}
+
+#table_for_signup_page{
+   width:auto;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   top: -0.8vw;
+}
+td{
+  padding: 2.5px;
+}
+
+    .group{ 
+      position:relative; 
+      margin-bottom:1.5vw; 
+    }
+    .group_email_id{ 
+        position:relative; 
+        margin-bottom:1.5vw; 
+      }
+    .group_end{ 
+        position:relative; 
+        margin-bottom:1.2vw; 
+      }
+    .input{
+      font-size:1vw;
+      padding:0.5vw 0.5vw 0.5vw 0.25vw;
+      display:block;
+      width:14vw;
+      height: 2.5vw;
+      font-family:"josefin sans medium";
+      border:none;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    }
+   
+    .input:focus{ 
+      outline:none; 
+    }
+    label {
+      color:#7a7a7a  ; 
+      font-size:1vw;
+      position:absolute;
+      font-family:"josefin sans medium";
+      pointer-events:none;
+      left: 3%;
+      top:32%;
+      transition:0.2s ease all; 
+    }
+    
+    .input:focus ~ label, .input:valid ~ label,.input:focus ~ #label_email, .input:valid ~ #label_email  {
+      top:-1.2vw;
+      left: 0vw;
+      font-size:1.05vw;
+      color:#4D4D4D;
+    }
+    #middle_col_in_table{
+      width: 0.5vw;
+    }
+   #teamscondition{
+       margin-left: auto;
+       margin-right:auto;
+       width: 1vw;
+       height: 1vw;
+       border: none;
+       box-shadow: none;
+   }
+  
+  input[type=date]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+color: black !important;
+}
+   b{
+       position: relative;
+       top: -0.2vw;
+       left: 0.5vw;
+       font-size: 0.8vw;
+       font-family:"josefin sans Light";
+   }
+   #submit_button{
+    margin-left: 7.8vw;
+    margin-right:auto;
+    margin-top: 1.5vw;
+     width: 6vw;
+     height: 1.9vw;
+     text-align: center;
+     font-size: 1vw;
+     font-family: 'Josefin Sans Bold', sans-serif;
+     background-color: #e9b826 ;
+     color: rgb(0, 0, 0);
+     border: none;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 0.2vw;
+   }
+   #back{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 1.5vw;
+    width: 6vw;
+    height: 1.9vw;
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Josefin Sans Bold', sans-serif;
+    background-color: #3cc5f9 ;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.2vw;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
