@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <title>SDK City Bank - REGISTERATION</title>
+    <link rel="Stylesheet" href="CSS\Register.css">
+  </head>
+  <body >
+    <div>
+              <h1 id="yummy_logo">SDK City Bank</h1>
+              <h3 id="logo_caption">Your wealth's guardian, our bank's promise.</h3>
+    </div>
+<hr id="line_1">
+      <fieldset id="Middle_fieldset">
+          <img src="image/bank_log.png" id="sign_up_logo">
+          <h2 id="sign_up_text">REGISTERATION</h2>
+          <br>
+    <form method="post" action="Registration.jsp" name="registration_form" >
+        <table  id="table_for_signup_page" >
+        <!--Row-1-->
+            <tr>
+            <!--Coloum 1-->
+                 <td>
+                     <div class="group">      
+                       <input type="text" name="Firstname" id="Firstname" class="input" required >
+                       <label>First name</label>
+                     </div>
+                </td>
+            <!--Coloum 3-->
+                <td>
+                     <div class="group">      
+                       <input type="text" name="Lastname" id="Lastname" class="input" required>
+                       <label>Last name</label>
+                     </div>
+                </td>
+            <!--Coloum 4-->
+            <td>
+              <div class="group">      
+                <input type="Date" name="Date_of_birth" value="" id="Date_of_birth" class="input" required >
+                <label>Date of birth</label>
+              </div>
+            </td> 
+               
+            </tr>
+        <!--Row-2-->
+          
+        <!--Row-3-->
+        <tr>
+          <td>
+            <div class="group">      
+              <input type="text" name="Fathername" id="Fathername" class="input" required >
+              <label>Father name</label>
+            </div>
+       </td>
+            <!--Coloum 1-->
+            <td>
+              <div class="group">      
+                <input type="text" name="aadhar" id="aadhar" class="input" required >
+                <label>Aadhar number</label>
+              </div>
+         </td>  
+            <!--Coloum 3-->
+            <td>
+              <div class="group">      
+                <input type="text" name="pancard" id="pancard" class="input" required >
+                <label>Pan Card</label>
+              </div>
+         </td>  
+         
+            </tr>
+        <!--Row-4-->
+            <tr>
+            <!--Coloum 1-->
+                 <td>
+                     <div class="group">      
+                       <input type="text" name="Address" id="Address" class="input" required >
+                       <label>Address</label>
+                     </div>
+                </td>                    
+            <!--Coloum 3-->
+                <td>
+                     <div class="group">      
+                       <input type="text" name="Pincode" id="Pincode" class="input" required >
+                       <label>Pincode</label>
+                     </div>
+                </td>
+                <td>
+                  <div class="group">      
+                    <input list="states" name="state" id="state" class="input" required >
+                    <datalist id="states">
+                      <option value="Andhra Pradesh">
+                      <option value="Arunachal Pradesh">
+                      <option value="Assam">
+                      <option value="Bihar">
+                      <option value="Chhattisgarh">
+                      <option value="Goa">
+                      <option value="Gujarat">
+                      <option value="Haryana">
+                      <option value="Himachal Pradesh">
+                      <option value="Jharkhand">
+                      <option value="Karnataka">
+                      <option value="Kerala">
+                      <option value="Madhya Pradesh">
+                      <option value="Maharashtra">
+                      <option value="Manipur">
+                      <option value="Meghalaya">
+                      <option value="Mizoram">
+                      <option value="Nagaland">
+                      <option value="Odisha">
+                      <option value="Punjab">
+                      <option value="Rajasthan">
+                      <option value="Sikkim">
+                      <option value="Tamil Nadu">
+                      <option value="Telangana">
+                      <option value="Tripura">
+                      <option value="Uttar Pradesh">
+                      <option value="Uttarakhand">
+                      <option value="West Bengal">
+                      <!-- You can add the union territories if required -->
+                    </datalist>
+                    <label>state</label>
+                  </div>
+             </td>  
+            </tr> 
+        <!--Row-4-->
+            <tr>
+              <td>
+                <div class="group_end" >      
+                  <input type="text" name="pnumber" id="pnumber" class="input" required >
+                  <label>Phone Number</label>
+                </div>
+           </td>
+            <!--Coloum 1-->
+            <td>
+              <div class="group_email_id">      
+                <input type="text" name="EmailID" id="EmailID_input" class="input" required>
+                <label id="label_email">Emai ID</label>
+              </div>
+         </td>
+                 <td>
+                     <div class="group_end">      
+                       <input type="Password" name="Password" id="Password" class="input" required >
+                       <label>Password</label>
+                     </div>
+                </td>                    
+            <!--Coloum 3-->
+                
+            </tr>   
+            <tr>
+                <td ><input type="checkbox" id="teamscondition" required><b>I accept the Teams & Conditions</b></td>
+            </tr>
+            <tr>
+                <td>
+                  <button type="button" id="back" onclick="goBack()">Back</button>
+                <td></td>
+                <td><button id="submit_button" name="submit" >Register</button></td>
+            </tr>
+        </table>
+    </form>        
+    </fieldset>
+    <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</body>   
+</html>
